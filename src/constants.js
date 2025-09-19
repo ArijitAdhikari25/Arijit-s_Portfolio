@@ -33,6 +33,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
+
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
@@ -52,6 +53,7 @@ import crvb from './assets/education_logo/crvb.jpeg';
 
 // Project Section Logo's
 import attendance from './assets/work_logo/attendance.png';
+import code_review from './assets/work_logo/Code_review.png';
 import githubdetLogo from './assets/work_logo/github_det.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
@@ -229,13 +231,13 @@ export const SkillsInfo = [
     
      {
       id: 1,
-      title: "Image Search App",
+      title: "AI-Powered Code Reviewer",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "#",
-      webapp: "https://imagsearch.netlify.app/",
+        "Developed an AI-powered code review platform using React.js for the frontend and Node.js/Express for the backend, enabling users to input code, receive automated reviews, and view feedback with syntax highlighting and markdown rendering.",
+      image: code_review,
+      tags: ["React JS", "Node.js", "Express.js", "Google Gemini API", "CSS"],
+      github: "https://github.com/ArijitAdhikari25/Ai-Code-Reviewer-Front",
+      webapp: "https://ai-code-reviewer-front.vercel.app/",
     },
     
   ];  
