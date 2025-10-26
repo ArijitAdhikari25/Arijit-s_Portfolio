@@ -226,7 +226,7 @@ export const SkillsInfo = [
       description:
         "Built Heylo — a realtime chat application developed with React.js, Node.js, Express, and Socket.io, allowing users to communicate instantly through a smooth and responsive interface. The app features live message updates, active user tracking, and efficient event-driven communication for a seamless chatting experience.",
       image: heylo,
-      tags: ["React.js","Node.js","Express.js","MongoDB","Socket.io"],
+      tags: ["React","NodeJs","ExpressJs","MongoDB","Socket.io"],
       github: "https://github.com/ArijitAdhikari25/Chat-App",
       webapp: "https://heylo-chat-app.onrender.com",
     },
@@ -236,7 +236,7 @@ export const SkillsInfo = [
       description:
         "Developed an AI-powered code review platform using React.js for the frontend and Node.js/Express for the backend, enabling users to input code, receive automated reviews, and view feedback with syntax highlighting and markdown rendering.",
       image: code_review,
-      tags: ["React JS", "Node.js", "Express.js", "Google Gemini API", "CSS"],
+      tags: ["React", "NodeJs", "ExpressJs", "Google Gemini API", "CSS"],
       github: "https://github.com/ArijitAdhikari25/Ai-Code-Reviewer-Front",
       webapp: "https://ai-code-reviewer-front.vercel.app/",
     },
