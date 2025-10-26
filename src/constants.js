@@ -54,6 +54,7 @@ import crvb from './assets/education_logo/crvb.jpeg';
 // Project Section Logo's
 import attendance from './assets/work_logo/attendance.png';
 import code_review from './assets/work_logo/Code_review.png';
+import heylo from './assets/work_logo/heylo-ss.png';
 import githubdetLogo from './assets/work_logo/github_det.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
@@ -217,18 +218,18 @@ export const SkillsInfo = [
     },
   ];
   
-  export const projects = [
-    {
-      id: 0,
-      title: "Online Student Attendence Management System",
-      description:
-        "Developed a web-based system for managing and monitoring student attendance,enabling teachers to record daily attendance and administrators to access real-time reports.",
-      image: attendance,
-      tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-      github: "#",
-      webapp: "https://attendence.lovestoblog.com/",
-    },
+  export const projects = [ 
     
+     {
+      id: 0,
+      title: "Heylo - A Realtime Chat Application",
+      description:
+        "Built Heylo — a realtime chat application developed with React.js, Node.js, Express, and Socket.io, allowing users to communicate instantly through a smooth and responsive interface. The app features live message updates, active user tracking, and efficient event-driven communication for a seamless chatting experience.",
+      image: heylo,
+      tags: ["React.js","Node.js","Express.js","MongoDB","Socket.io"],
+      github: "https://github.com/ArijitAdhikari25/Chat-App",
+      webapp: "https://heylo-chat-app.onrender.com",
+    },
      {
       id: 1,
       title: "AI-Powered Code Reviewer",
@@ -238,6 +239,16 @@ export const SkillsInfo = [
       tags: ["React JS", "Node.js", "Express.js", "Google Gemini API", "CSS"],
       github: "https://github.com/ArijitAdhikari25/Ai-Code-Reviewer-Front",
       webapp: "https://ai-code-reviewer-front.vercel.app/",
+    },
+     {
+      id: 2,
+      title: "Online Student Attendence Management System",
+      description:
+        "Developed a web-based system for managing and monitoring student attendance,enabling teachers to record daily attendance and administrators to access real-time reports.",
+      image: attendance,
+      tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      github: "#",
+      webapp: "https://attendence.lovestoblog.com/",
     },
     
   ];  
